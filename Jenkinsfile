@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        allure 'allure'   // name configured in Jenkins Tools
+        allure 'allure_2.35.0'   // name configured in Jenkins Tools
     }
 
     stages {
