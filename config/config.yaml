@@ -1,0 +1,14 @@
+# config/config.yaml
+
+# Environment-specific settings for your application
+environments:
+  # The sample automation practice site
+  wego:
+    base_url: "https://www.wego.co.in/"
+    username: "NA"
+    password: "NA"
+
+  practice:
+    base_url: "https://practicetestautomation.com/practice-test-login/"
+    username: "student"
+    password: "Password123"
