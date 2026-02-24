@@ -14,9 +14,9 @@ class DriverManager:
             chrome_driver.maximize_window()
             return chrome_driver
 
-        elif browser == "edge":
+        elif browser == "firefox":
             logger.info("Initializing Edge browser")
-            edge_driver = webdriver.Edge()
+            edge_driver = webdriver.Firefox()
             edge_driver.maximize_window()
             return edge_driver
 
