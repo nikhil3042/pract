@@ -40,11 +40,11 @@ pipeline {
             }
         }
 
-        stage('Run Tests - Edge') {
+        stage('Run Tests - Firefox') {
             steps {
                 bat '''
                 call venv\\Scripts\\activate
-                pytest tests --browser=edge --alluredir=reports\\allure-results
+                pytest tests --browser=firefox --alluredir=reports\\allure-results
                 '''
             }
         }
